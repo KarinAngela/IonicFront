@@ -1,5 +1,11 @@
 ion-content{
-    --background:#000000;
+    --background:#d6d6d6;
+}
+.toolbar-chamado{
+    position: absolute;
+    border-radius: 0 0 30px 30px;
+    height: 20vh;
+    width: 100vw;
 }
 .card{
     color: rgb(0, 0, 0);
