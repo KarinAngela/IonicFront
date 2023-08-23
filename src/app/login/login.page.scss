@@ -1,5 +1,45 @@
-.ion-padding{
+ion-content{
+    padding: 10px 0;
+  
+}
+
+.button{
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    height: 1vh;
+    width: 90vw;
+    color: white;
     
+}
 
+.email{
+    border-radius: 50px;
+    margin: 20px;
+    
+}
 
+.senha{
+    border-radius: 90px;
+    margin:20px;
+   
+}
+
+.trevo{
+    
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    left: 2.5em;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.img{
+    display: flex;
+    width: 60px;
+    height: 55px;
+    position: absolute;
 }
