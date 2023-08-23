@@ -1,22 +1,48 @@
 <ion-header [translucent]="true">
-    <img class="img" src="https://imgur.com/ZKu7pVx.png" alt="imagem">
-    <ion-title class="trevo">Trevo</ion-title>
+  <img class="img" src="https://imgur.com/ZKu7pVx.png" alt="imagem">
+  <ion-title class="trevo">Trevo</ion-title>
 </ion-header>
 
-<span class="input-label">Seja bem ao Aplicativo!</span>
 
-<ion-content>
-  <ion-item class="email">
-    <ion-label position="floating">E-mail</ion-label>
-    <ion-input [(ngModel)]="username" type="text" shape="round">
-    </ion-input>
-  </ion-item>
 
-  <ion-item class="senha">
-    <ion-label position="floating">Senha</ion-label>
-    <ion-input [(ngModel)]="password" type="password" ></ion-input>
-  </ion-item>
-  
-  <ion-button class="button" expand="block" (click)="login()">Entrar</ion-button>
+<ion-content class="itens">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <span class="input-label">Seja bem ao Aplicativo!</span>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+
+      <ion-col>
+        <ion-item class="email">
+          <ion-label position="floating">E-mail</ion-label>
+          <ion-input [(ngModel)]="username" type="text" shape="round">
+          </ion-input>
+        </ion-item>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item class="senha">
+          <ion-label position="floating">Senha</ion-label>
+          <ion-input [(ngModel)]="password" type="password"></ion-input>
+        </ion-item>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="button" expand="block" (click)="login()">Entrar</ion-button>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+
 </ion-content>
-

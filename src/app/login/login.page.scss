@@ -1,13 +1,16 @@
-ion-content{
-    padding: 10px 0;
-  
+
+.input-label{
+    font-size: 10px;
+    top: 120px;
+    margin: 40px;
+    padding: 20px;
+    
 }
 
 .button{
     border-color: black;
     margin: 20px;
     padding: 10px;
-    position: absolute;
     height: 1vh;
     width: 90vw;
     color: white;
@@ -30,11 +33,10 @@ ion-content{
     
     margin: 0%;
     padding: 0%;
-    position: relative;
-    left: 2.5em;
+    text-align: center;
     font-size: 46px;
     color: rgb(255, 255, 255);
-    display: flex;
+ 
 }
 
 .img{
