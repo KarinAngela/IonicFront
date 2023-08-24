@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'chamado',
     loadChildren: () => import('./chamado/chamado.module').then( m => m.ChamadoPageModule)
   },
+  {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
 ];
 
 @NgModule({
