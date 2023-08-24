@@ -2,9 +2,12 @@ ion-content{
     --background:#ffff;
 }
 ion-header{
+    position: absolute;
     background: #2A908F;
-    border-radius: 10px 10px 30px 30px;
+    border-radius: 0 0 30px 30px;
+    top: 0px;
     height: 30vh;
+    width: 100vw;
 }
 
 ion-button{
@@ -19,9 +22,11 @@ ion-button{
     
 }
 
+
 .info{
     color: rgb(39, 38, 38);
     font-size: 12px;
+    top: 100px;
 }
 
 .info1{
@@ -35,8 +40,16 @@ h2{
 
 ion-card{
     border-radius: 14px;
-    background-color: #e7e7e7;
+    top: 200px;
+    background-color: #e7e5e5;
     height: 15vh;   
     padding: 5px;
     
+}
+ion-footer{
+    position: absolute;
+    background: #2A908F;
+    bottom: 0px;
+    height: 10vh;
+    border-radius: 20px 20px 0 0    ;
 }
