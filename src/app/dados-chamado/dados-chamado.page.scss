@@ -1,0 +1,75 @@
+ion-content{
+    --background:#ffff;
+}
+
+ion-header{
+    position: absolute;
+    background: #2A908F;
+    border-radius: 0 0 30px 30px;
+    top: 0px;
+    height: 30vh;
+    width: 100vw;
+}
+
+.dado{
+    position: absolute;
+    font-style: italic;
+    text-align: center;
+    left: 100px;
+    top: 150px;
+    font-size: 16px;
+    text-decoration: underline;
+    
+}
+
+ion-button{
+    position: relative;
+    border-radius: 90px;
+    font-size: 10px;
+    background: #f8641f;
+    height: 1vh;
+    width: 90vw;
+    top: 90px;
+    left: 10px;
+    
+}
+
+
+.info{
+    color: rgb(39, 38, 38);
+    font-size: 12px;
+    top: 100px;
+}
+
+.info1{
+    color: rgb(39, 38, 38);
+    font-size: 12px;
+}
+
+h2{
+    font-size: 10px;
+}
+
+ion-card{
+    border-radius: 14px;
+    top: 200px;
+    background-color: #e7e5e5;
+    height: 15vh;   
+    padding: 5px;
+    
+}
+ion-footer{
+    position: absolute;
+    background: #2A908F;
+    bottom: 0px;
+    height: 10vh;
+    border-radius: 20px 20px 0 0    ;
+}
+.button1{
+    position: absolute;
+    top: 0px;
+    background: #2A908F;
+    
+    color:black;
+   
+}
