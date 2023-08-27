@@ -47,10 +47,10 @@ ion-menu-button{
 }
 
 .descricao{
-    box-shadow: 2px 4px 4px rgb(124, 124, 124);
+    box-shadow: 4px 2px 3px rgb(124, 124, 124);
     background-color: white;
     border-radius: 50px;
-    top: 240px;
+    top: 120px;
     width: 80vw;
     height:5vh;
     padding: 1px;
@@ -62,9 +62,9 @@ ion-menu-button{
 .prioridade{
     background:rgba(255, 255, 255, 0.993);
     border-radius: 50px;
-    box-shadow: 2px 4px 4px rgb(128, 128, 128);
+    box-shadow: 4px 2px 3px rgb(124, 124, 124);
     width: 80vw;
-    top: 260px;
+    top: 140px;
     font-size: 10px;
     padding: 1px;
     margin: 0px;
@@ -109,14 +109,16 @@ h2{
 
 .localizacao{
     color: rgb(0, 0, 0);
+    
+    border-radius: 20px 20px 0 0;
     font-size: 14px;
-    top: 263px;
+    top: 200px;
     right: 10px;
 
 }
 
 .local{
-    box-shadow: 2px 4px 4px rgb(73, 73, 73);
+    box-shadow:4px 2px 3px rgb(124, 124, 124);
     background-color: white;
     border-radius: 50px;
     width: 10em;
@@ -130,28 +132,28 @@ h2{
 }
 
 .long{
-    box-shadow: 2px 4px 4px rgb(146, 146, 146);
+    box-shadow: 4px 2px 3px rgb(124, 124, 124);
     background-color: white;
     border-radius: 50px;
-    width: 120px;
+    width: 40vw;
     height:5vh;
     padding: 1px;
     margin: 0px;
-    top: 261px;
-    left: 3px;
+    top: 201px;
+    left: 0px;
     font-size: 10px;
     color: rgba(17, 17, 17, 0.849);
 }
 
 .lati{
-    box-shadow: 2px 4px 4px rgb(146, 146, 146);
+    box-shadow: 4px 2px 3px rgb(124, 124, 124);
     background-color: white;
     border-radius: 50px;
-    width: 120px;
+    width: 42vw;
     height:5vh;
     padding: 1px;
     margin: 0px;
-    top: 205px;
+    top: 142px;
     left: 160px;
     font-size: 10px;
     color: rgba(17, 17, 17, 0.849);
@@ -159,11 +161,11 @@ h2{
 
 .enviarChamado{
     position: absolute;
-    border-radius: 90px;
+    border-radius: 5px;
     font-size: 10px;
     background: #f8641f;
     height: 1vh;
-    width: 50vw;
-    top: 610px;
-    right: 0px;
+    width: 32vw;
+    top: 450px;
+    left: 200px;
 }
