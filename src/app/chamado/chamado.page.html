@@ -3,8 +3,9 @@
     <ion-toolbar>
       <ion-title>Trevo</ion-title>
     </ion-toolbar>
+   
   </ion-header>
-  <ion-content class="ion-padding"></ion-content>
+  
 </ion-menu>
 
 <div class="ion-page" id="main-content">
@@ -12,7 +13,9 @@
     <ion-toolbar>
       <ion-buttons>
       
-        <ion-menu-button></ion-menu-button>
+        <ion-menu-button>
+          
+        </ion-menu-button>
       </ion-buttons>
     </ion-toolbar>
  
@@ -24,17 +27,21 @@
   <ion-content class="ion-padding">
 
   <ion-grid>  
-    <ion-row>
+    <ion-row> 
       <ion-col>
         <ion-card>
           <span class="info">Error Servidor!</span>
           <h2>Pendente</h2>
+          <ion-button>
+           <ion-icon class="lixo" name="trash"></ion-icon>
+          </ion-button>
           
           <ion-button>
-            <ion-icon name="trash"></ion-icon>
+            <ion-icon class="editor" name="create"></ion-icon>
           </ion-button>
  
         </ion-card>
+
       </ion-col>
     </ion-row>
 
@@ -43,6 +50,13 @@
         <ion-card>
           <span class="info1">Error Servidor!</span>
           <h2>Resolvido</h2>
+          <ion-button>
+            <ion-icon name="trash"></ion-icon>
+          </ion-button>
+          <ion-button>
+            <ion-icon name="create"></ion-icon>
+          </ion-button>
+
         </ion-card>
       </ion-col>
     </ion-row>
@@ -50,15 +64,11 @@
   </ion-content>
 
  
-</div>
+</div> 
+
+
 <ion-footer>
-  
   <ion-button class="saibaMais" fill="clear" expand="block" color="light">
     Saiba mais!
   </ion-button>
-  
 </ion-footer>
-
-
-
-

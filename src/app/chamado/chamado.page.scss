@@ -24,10 +24,6 @@ ion-header{
    
 }
 
-ion-icon{
-    display: flex;
-    left: 100px;
-}
 
 .info{
     color: rgb(39, 38, 38);
@@ -50,6 +46,7 @@ ion-card{
     background-color: #e7e5e5;
     height: 15vh;   
     padding: 5px;
+    box-shadow: 10px 5px 5px rgb(172, 172, 172);
     
 }
 ion-footer{
