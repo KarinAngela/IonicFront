@@ -1,13 +1,36 @@
 ion-content{
-    --background:#ffff;
+    --background:#000000;
 }
+
+.descricao{
+    background-color: rgba(238, 24, 24, 0.774);
+    border-radius: 90px;
+    width: 80vw;
+    height:5vh;
+   
+    font-size: 10px;
+    color: rgba(17, 17, 17, 0.849);
+}
+.prioridade{
+    background:rgba(218, 218, 218, 0.993);
+    border-radius: 90px;
+    width: 80vw;
+    font-size: 10px;
+    height:5vh;
+    color: rgba(17, 17, 17, 0.849);
+}
+
+sc-ion-alert-md{
+  background-color: #000000;
+}
+
 
 ion-header{
     position: absolute;
     background: #2A908F;
     border-radius: 0 0 30px 30px;
     top: 0px;
-    height: 30vh;
+    height: 10vh;
     width: 100vw;
 }
 
@@ -15,8 +38,9 @@ ion-header{
     position: absolute;
     font-style: italic;
     text-align: center;
+    color: rgb(255, 255, 255);
     left: 100px;
-    top: 150px;
+    top: 54px;
     font-size: 16px;
     text-decoration: underline;
     
@@ -72,4 +96,7 @@ ion-footer{
     
     color:black;
    
+}
+ion-menu-button{
+    position: relative;
 }

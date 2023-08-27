@@ -12,4 +12,6 @@ export class DadosChamadoPage implements OnInit {
   ngOnInit() {
   }
 
+  
+
 }
