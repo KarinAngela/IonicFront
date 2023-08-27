@@ -1,7 +1,50 @@
 ion-content{
-    --background:#2ceee4;
+    --background:#ffffff;
 }
 
+ion-button{
+    position: relative;
+    border-radius: 90px;
+    font-size: 10px;
+    background: #f8641f;
+    height: 1vh;
+    width: 90vw;
+    top: 90px;
+    left: 10px;
+    
+}
+
+
+ion-header{
+    position: absolute;
+    background: #2A908F;
+    border-radius: 0 0 30px 30px;
+    top: 0px;
+    height: 10vh;
+    width: 100vw;
+}
+
+ion-card{
+    border-radius: 14px;
+    top: 200px;
+    background-color: #e7e5e5;
+    height: 15vh;   
+    padding: 5px;
+    
+}
+ion-footer{
+    position: absolute;
+    background: #2A908F;
+    bottom: 0px;
+    height: 10vh;
+
+    width: 100vw;
+    border-radius: 20px 20px 0 0;
+}
+
+ion-menu-button{
+    position: relative;
+}
 
 .descricao{
     box-shadow: 2px 4px 4px rgb(124, 124, 124);
@@ -29,16 +72,6 @@ ion-content{
     color: rgba(17, 17, 17, 0.849);
 }
 
-
-ion-header{
-    position: absolute;
-    background: #2A908F;
-    border-radius: 0 0 30px 30px;
-    top: 0px;
-    height: 10vh;
-    width: 100vw;
-}
-
 .dado{
     position: absolute;
     font-style: italic;
@@ -50,19 +83,6 @@ ion-header{
     text-decoration: underline;
     
 }
-
-ion-button{
-    position: relative;
-    border-radius: 90px;
-    font-size: 10px;
-    background: #f8641f;
-    height: 1vh;
-    width: 90vw;
-    top: 90px;
-    left: 10px;
-    
-}
-
 
 .info{
     color: rgb(39, 38, 38);
@@ -79,31 +99,12 @@ h2{
     font-size: 10px;
 }
 
-ion-card{
-    border-radius: 14px;
-    top: 200px;
-    background-color: #e7e5e5;
-    height: 15vh;   
-    padding: 5px;
+.saibaMaisChamado{
     
-}
-ion-footer{
-    position: absolute;
-    background: #2A908F;
-    bottom: 0px;
-    height: 10vh;
-    border-radius: 20px 20px 0 0    ;
-}
-.button1{
     position: absolute;
     top: 0px;
-    background: #2A908F;
-    
-    color:black;
+ 
    
-}
-ion-menu-button{
-    position: relative;
 }
 
 .localizacao{
@@ -154,4 +155,15 @@ ion-menu-button{
     left: 160px;
     font-size: 10px;
     color: rgba(17, 17, 17, 0.849);
+}
+
+.enviarChamado{
+    position: absolute;
+    border-radius: 90px;
+    font-size: 10px;
+    background: #f8641f;
+    height: 1vh;
+    width: 50vw;
+    top: 610px;
+    right: 0px;
 }
