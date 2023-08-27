@@ -4,7 +4,7 @@
       <ion-title>Trevo</ion-title>
     </ion-toolbar>
   </ion-header>
-   <ion-content class="ion-padding"></ion-content>
+  <ion-content class="ion-padding"></ion-content>
 </ion-menu>
 
 <!-- <div class="ion-page" id="main-content">
@@ -17,56 +17,66 @@
 
     <span class="dado">Dados chamado!</span>
   </ion-header>   -->
-  
-  <ion-content class="ion-padding">
-    <ion-grid [fixed]="true">  
+
+<ion-content class="ion-padding">
+  <ion-grid [fixed]="true">
     <ion-row>
-      <ion-col> 
-        <ion-item class="descricao">      
+      <ion-col>
+        <ion-item class="descricao" color="none" lines="none">
           <ion-input label="Descrição" label-placement="floating" placeholder=""></ion-input>
         </ion-item>
-       
+
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col>
-        
-        <ion-item class="prioridade">
+        <ion-item class="prioridade" color="none" lines="none">
           <ion-select label="Prioridade" label-placement="floating">
-            <ion-select-option value="baíxa">Baíxa</ion-select-option>
+            <ion-select-option value="baixa">Baixa</ion-select-option>
             <ion-select-option value="média">Média</ion-select-option>
             <ion-select-option value="alta">Alta</ion-select-option>
           </ion-select>
         </ion-item>
-   
-         
       </ion-col>
     </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item class="localizacao" color="none" lines="">
+          <span>Localização</span>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item class="long" color="none" lines="none">
+          <ion-input label="Longitude" label-placement="floating" placeholder=""></ion-input>
+        </ion-item>
+        <ion-col>
+          <ion-item class="lati">
+            <ion-input label="Latitude" label-placement="floating" placeholder=""></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button>Default</ion-button> <ion-button shape="round">Round</ion-button>
+
+
+      </ion-col>
+    </ion-row>
+
+
+
+
+
   </ion-grid>
-  </ion-content>
-  <!-- <ion-footer>
+</ion-content>
+<!-- <ion-footer>
     <ion-button class="button1">Saiba mais!</ion-button>
   </ion-footer> 
 </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

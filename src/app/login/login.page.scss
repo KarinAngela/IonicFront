@@ -19,9 +19,9 @@ ion-header{
 }
 
 .button{
-    border-color: black;
+    border-radius: 100px;
     margin: 10px;
-    padding: 10px;
+    
     height: 1vh;
     width: 90vw;
     color: white;
@@ -31,12 +31,14 @@ ion-header{
 .email{
     border-radius: 50px;
     margin: 20px;
+    background-color: white;
     
 }
 
 .senha{
     border-radius: 90px;
     margin:20px;
+    background-color: white;
    
 }
 

@@ -11,39 +11,35 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        
+
         <span class="input-label">Seja bem ao Aplicativo!</span>
-        
       </ion-col>
     </ion-row>
-    <ion-row>
 
+    <ion-row>
       <ion-col>
-        <ion-item class="email">
+        <ion-item class="email"  color="none" lines="none">
           <ion-label position="floating">E-mail</ion-label>
           <ion-input [(ngModel)]="username" type="text" shape="round">
           </ion-input>
         </ion-item>
       </ion-col>
-
     </ion-row>
+
     <ion-row>
       <ion-col>
-        <ion-item class="senha">
+        <ion-item class="senha"  color="none" lines="none">
           <ion-label position="floating">Senha</ion-label>
           <ion-input [(ngModel)]="password" type="password"></ion-input>
         </ion-item>
-
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col>
-        <ion-button class="button" expand="block" (click)="login()">Entrar</ion-button>
+        <ion-button class="button" fill="outline" expand="block" color="light" (click)="login()">Entrar</ion-button>
       </ion-col>
     </ion-row>
-
-
   </ion-grid>
 
 

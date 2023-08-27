@@ -11,18 +11,23 @@ ion-header{
     width: 100vw;
 }
 
-ion-button{
+.add{
     position: relative;
-    border-radius: 90px;
-    font-size: 10px;
-    background: #f8641f;
-    height: 1vh;
-    width: 90vw;
-    top: 90px;
-    left: 10px;
-    
+    color: white;
+    top: 120px;
+    left: 70px;
+    border-radius: 10px;
+    font-size: 12px;
+    background: orangered;
+    height:2vh;
+    width: 55vw;
+   
 }
 
+ion-icon{
+    display: flex;
+    left: 100px;
+}
 
 .info{
     color: rgb(39, 38, 38);
@@ -54,11 +59,14 @@ ion-footer{
     height: 10vh;
     border-radius: 20px 20px 0 0    ;
 }
-.button1{
+.saibaMais{
+    border-radius: 90px;
     position: absolute;
-    top: 0px;
-    background: #2A908F;
-    
-    color:black;
-   
+    color: rgb(255, 251, 251);
+    top: px;
+    left: 90px;
+    height:1vh;
+    width: 40vw;
+    font-size: 12px;
 }
+
