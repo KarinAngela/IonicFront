@@ -1,3 +1,5 @@
+
+
 ion-card{
     border-radius: 14px;
     top: 200px;
@@ -15,36 +17,32 @@ ion-footer{
     border-radius: 20px 20px 0 0;
 }
 
+
+ion-item{
+    border-radius: 0 0 10px 10px;
+    width: 100vw;
+    right: 16px;
+    bottom:16px;
+
+}
+
 ion-button{
-    background-color: #E18529;
+    position: relative;
+    left: 60px;
+
 }
-
-.toolbar2{
-    background: #2A908F;
-    border-radius: 0 0 20px 20px;
-    height: 15vh;
-}
-
-
-
-.add{
-    position: absolute;
-    color: black;
-    border-radius: 30px;
-    top:50px;
-    
-}
-
 
 .info{
     color: rgb(39, 38, 38);
     font-size: 12px;
-    top: 100px;
+    
 }
 
 .info1{
     color: rgb(39, 38, 38);
     font-size: 12px;
+   
+
 }
 
 h2{
