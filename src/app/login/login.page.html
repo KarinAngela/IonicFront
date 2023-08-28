@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header>
   <img class="img" src="https://imgur.com/ZKu7pVx.png" alt="imagem">
   <ion-title class="trevo">Trevo</ion-title>
 </ion-header>
@@ -8,7 +8,9 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <span class="input-label">Seja bem ao Aplicativo!</span>
+        <div class="input-label">
+          <span>Seja bem ao aplicativo da Trevo</span>
+        </div>
       </ion-col>
     </ion-row>
 
@@ -33,7 +35,7 @@
 
     <ion-row>
       <ion-col>
-        <ion-button class="button" fill="outline" expand="block" color="light" (click)="login()">Entrar</ion-button>
+        <ion-button class="button" fill="outline" expand="block" color="light" shape="round" (click)="login()">Entrar</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>

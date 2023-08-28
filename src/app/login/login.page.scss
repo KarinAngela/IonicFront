@@ -3,23 +3,19 @@ ion-content {
 }
 
 ion-header {
-  --background: #2A908F;
+  background: #2A908F;
 }
 
 .input-label {
   font-size: 16px;
-  top: 120px;
-  margin: 40px;
-  padding: 20px;
   color: white;
-
+  display: flex;
+  justify-content: center;
 }
 
 .button {
   border-radius: 100px;
-  margin: 10px;
   height: 1vh;
-  width: 90vw;
   color: white;
 
 }
