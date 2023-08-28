@@ -1,169 +1,105 @@
 
-
-ion-button{
-    position: relative;
-    border-radius: 90px;
-    font-size: 10px;
-    background: #f8641f;
-    height: 1vh;
-    width: 90vw;
-    top: 90px;
-    left: 10px;
-    
+ion-header {
+  position: absolute;
+  background: #2A908F;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-ion-header{
-    position: absolute;
-    background: #2A908F;
-    border-radius: 0 0 30px 30px;
-    top: 0px;
-    height: 10vh;
-    width: 100vw;
+ion-content {
+  --padding-top: 100px;
+  --padding-bottom: 100px;
 }
 
-ion-card{
-    border-radius: 14px;
-    top: 200px;
-    background-color: #e7e5e5;
-    height: 15vh;   
-    padding: 5px;
-    
-}
-ion-footer{
-    position: absolute;
-    background: #2A908F;
-    bottom: 0px;
-    height: 10vh;
-
-    width: 100vw;
-    border-radius: 20px 20px 0 0;
-}
-
-ion-menu-button{
-    position: relative;
-}
-
-.descricao{
-    box-shadow: 4px 2px 3px rgb(124, 124, 124);
-    background-color: white;
-    border-radius: 50px;
-    top: 120px;
-    width: 80vw;
-    height:5vh;
-    padding: 1px;
-    margin: 0px;
-    left:1px;
-    font-size: 10px;
-    color: rgba(17, 17, 17, 0.849);
-}
-.prioridade{
-    background:rgba(255, 255, 255, 0.993);
-    border-radius: 50px;
-    box-shadow: 4px 2px 3px rgb(124, 124, 124);
-    width: 80vw;
-    top: 140px;
-    font-size: 10px;
-    padding: 1px;
-    margin: 0px;
-    height:5vh;
-    color: rgba(17, 17, 17, 0.849);
-}
-
-.dado{
-    position: absolute;
-    font-style: italic;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    left: 100px;
-    top: 54px;
-    font-size: 16px;
-    text-decoration: underline;
-    
-}
-
-.info{
-    color: rgb(39, 38, 38);
-    font-size: 12px;
-    top: 100px;
-}
-
-.info1{
-    color: rgb(39, 38, 38);
-    font-size: 12px;
-}
-
-h2{
-    font-size: 10px;
-}
-
-.saibaMaisChamado{
-    
-    position: absolute;
-    top: 0px;
- 
-   
-}
-
-.localizacao{
-    color: rgb(0, 0, 0);
-    
-    border-radius: 20px 20px 0 0;
-    font-size: 14px;
-    top: 200px;
-    right: 10px;
+ion-card {
+  border-radius: 14px;
+  top: 200px;
+  background-color: #e7e5e5;
+  height: 15vh;
+  padding: 5px;
 
 }
 
-.local{
-    box-shadow:4px 2px 3px rgb(124, 124, 124);
-    background-color: white;
-    border-radius: 50px;
-    width: 10em;
-    height:5vh;
-    padding: 1px;
-    margin: 0px;
-    top: 261px;
-    left: 6px;
-    font-size: 12px;
-    color: rgba(17, 17, 17, 0.849);
+ion-footer {
+  position: absolute;
+  background: #2A908F;
+  bottom: 0px;
+  height: 10vh;
+  width: 100vw;
+  border-radius: 20px 20px 0 0;
 }
 
-.long{
-    box-shadow: 4px 2px 3px rgb(124, 124, 124);
-    background-color: white;
-    border-radius: 50px;
-    width: 40vw;
-    height:5vh;
-    padding: 1px;
-    margin: 0px;
-    top: 201px;
-    left: 0px;
-    font-size: 10px;
-    color: rgba(17, 17, 17, 0.849);
+ion-menu-button {
+  position: relative;
 }
 
-.lati{
-    box-shadow: 4px 2px 3px rgb(124, 124, 124);
-    background-color: white;
-    border-radius: 50px;
-    width: 42vw;
-    height:5vh;
-    padding: 1px;
-    margin: 0px;
-    top: 142px;
-    left: 160px;
-    font-size: 10px;
-    color: rgba(17, 17, 17, 0.849);
+.titulo-chamado,
+.descricao,
+.prioridade,
+.lati,
+.long {
+  box-shadow: 4px 2px 3px rgb(124, 124, 124);
+  border-radius: 50px;
+  font-size: 10pt;
+  color: rgba(17, 17, 17, 0.849);
 }
 
-.enviarChamado{
-    position: absolute;
-    border-radius: 5px;
-    font-size: 10px;
-    background: #f8641f;
-    height: 1vh;
-    width: 32vw;
-    top: 450px;
-    left: 200px;
+.titulo-pagina {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.info {
+  color: rgb(39, 38, 38);
+  font-size: 12px;
+  top: 100px;
+}
+
+.info1 {
+  color: rgb(39, 38, 38);
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 10px;
+}
+
+.localizacao {
+  color: rgb(0, 0, 0);
+  border-radius: 20px 20px 0 0;
+  font-size: 14px;
+}
+
+.local {
+  box-shadow: 4px 2px 3px rgb(124, 124, 124);
+  background-color: white;
+  border-radius: 50px;
+  width: 10em;
+  height: 5vh;
+  padding: 1px;
+  margin: 0px;
+  top: 261px;
+  left: 6px;
+  font-size: 12px;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.enviarChamado {
+  border-radius: 5px;
+  font-size: 10px;
+  background: #f8641f;
+  width: 100%;
+}
+
+.saiba-mais {
+  padding-top: 10px;
+}
+
+ion-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

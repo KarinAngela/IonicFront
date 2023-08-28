@@ -1,56 +1,54 @@
 <ion-menu contentId="main-content">
   <ion-header>
-    <ion-title>Trevo</ion-title>
+    <ion-toolbar>
+      <ion-title>Trevo</ion-title>
+    </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding"></ion-content>
 </ion-menu>
 
 <div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+    <ion-button color="secondary" (click)="insertChamado()">Adicionar chamado</ion-button>
+  </ion-header>
+
   <ion-content class="ion-padding">
+    <ion-card *ngFor="let chamado of chamadoList; let index = index">
+      <div class="card-content">
+        <div class="card-info">
+          <span class="titulo-chamado">{{ chamado.tituloChamado }}</span>
+          <span class="status-chamado">{{ chamado.statusChamado }}</span>
+        </div>
+        <div class="card-actions">
+          <ion-button fill="clear" size="small" (click)="openChamadoDetail($event, chamado)">
+            <ion-icon name="create"/>
+          </ion-button>
 
-  <ion-item color="primary">
+          <ion-button fill="clear" size="small" (click)="deleteChamado(chamado)">
+            <ion-icon name="trash" color="danger" />
+          </ion-button>
+        </div>
+      </div>
+    </ion-card>
 
-    <ion-button color="secondary">Adicionar ao chamado</ion-button>
- 
-  </ion-item>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-card>
-            <span class="info">Error Servidor!</span>
-            <h2>Pendente</h2>
-            <ion-button>
-              <ion-icon class="lixo" name="trash"></ion-icon>
-            </ion-button>
-
-            <ion-button>
-              <ion-icon class="editor" name="create"></ion-icon>
-            </ion-button>
-          </ion-card>
-        </ion-col>
-      </ion-row>
-
-      <ion-row>
-        <ion-col>
-          <ion-card>
-            <span class="info1">Error Servidor!</span>
-            <h2>Resolvido</h2>
-            <ion-button>
-              <ion-icon name="trash"></ion-icon>
-            </ion-button>
-            <ion-button>
-              <ion-icon name="create"></ion-icon>
-            </ion-button>
-          </ion-card>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+    <ion-toast
+      [isOpen]="isToastOpen"
+      message="Não foi possível listar os chamados"
+      color="danger"
+      class="ion-text-center"
+      [duration]="5000"
+      (didDismiss)="openToast(false)"
+    ></ion-toast>
   </ion-content>
 
+  <ion-footer>
+    <ion-button class="saibaMais" fill="clear" expand="block" color="none">
+      Saiba mais!
+    </ion-button>
+  </ion-footer>
 </div>
-
-<ion-footer>
-  <ion-button class="saibaMais" fill="clear" expand="block" color="none">
-    Saiba mais!
-  </ion-button>
-</ion-footer>

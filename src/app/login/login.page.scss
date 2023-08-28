@@ -1,62 +1,58 @@
-
-ion-content{
-    --background: #2A908F;
-}
-ion-header{
-    --background:#2A908F;
-}
-.itens{
-    top: 150px;
+ion-content {
+  --background: #2A908F;
 }
 
-.input-label{
-    font-size: 16px;
-    top: 120px;
-    margin: 40px;
-    padding: 20px;
-    color: white;
-   
+ion-header {
+  --background: #2A908F;
 }
 
-.button{
-    border-radius: 100px;
-    margin: 10px;
-    
-    height: 1vh;
-    width: 90vw;
-    color: white;
-    
+.input-label {
+  font-size: 16px;
+  top: 120px;
+  margin: 40px;
+  padding: 20px;
+  color: white;
+
 }
 
-.email{
-    border-radius: 50px;
-    margin: 20px;
-    background-color: white;
-    
+.button {
+  border-radius: 100px;
+  margin: 10px;
+  height: 1vh;
+  width: 90vw;
+  color: white;
+
 }
 
-.senha{
-    border-radius: 90px;
-    margin:20px;
-    background-color: white;
-   
+.email {
+  border-radius: 50px;
+  margin: 20px;
+  background-color: white;
+
 }
 
-.trevo{
-    
-    margin: 2px;
-    padding: 0px;
-    text-align: center;
-    font-size: 56px;
-    color: rgb(255, 255, 255);
-    font-family:cursive;  
- 
+.senha {
+  border-radius: 90px;
+  margin: 20px;
+  background-color: white;
+
 }
 
-.img{
-    display: flex;
-    width: 70px;
-    height: 65px;
-    position: absolute;
+.trevo {
+
+  margin: 2px;
+  padding: 0px;
+  text-align: center;
+  font-size: 56px;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+
+}
+
+.img {
+  display: flex;
+  width: 70px;
+  height: 65px;
+  position: absolute;
 }
 

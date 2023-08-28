@@ -1,26 +1,22 @@
 <ion-header [translucent]="true">
-
   <img class="img" src="https://imgur.com/ZKu7pVx.png" alt="imagem">
   <ion-title class="trevo">Trevo</ion-title>
 </ion-header>
-
-
 
 <ion-content class="itens">
 
   <ion-grid>
     <ion-row>
       <ion-col>
-
         <span class="input-label">Seja bem ao Aplicativo!</span>
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col>
-        <ion-item class="email"  color="none" lines="none">
+        <ion-item class="email" color="none" lines="none">
           <ion-label position="floating">E-mail</ion-label>
-          <ion-input [(ngModel)]="username" type="text" shape="round">
+          <ion-input [(ngModel)]="email" type="text" shape="round">
           </ion-input>
         </ion-item>
       </ion-col>
@@ -42,5 +38,12 @@
     </ion-row>
   </ion-grid>
 
-
+  <ion-toast
+    [isOpen]="isToastOpen"
+    message="Usuário ou senha inválidos"
+    color="danger"
+    class="ion-text-center"
+    [duration]="5000"
+    (didDismiss)="openToast(false)"
+  ></ion-toast>
 </ion-content>

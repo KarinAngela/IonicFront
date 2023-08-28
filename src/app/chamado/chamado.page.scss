@@ -1,63 +1,97 @@
-
-
-ion-card{
-    border-radius: 14px;
-    top: 30px;
-    background-color: #e7e5e5;
-    height: 15vh;   
-    padding: 5px;
-    box-shadow: 10px 5px 5px rgb(172, 172, 172);
-    
-}
-ion-footer{
-    position: absolute;
-    background: #2A908F;
-    bottom: 0px;
-    height: 10vh;
-    border-radius: 20px 20px 0 0;
+ion-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+ion-header ion-button {
+  width: min-content;
+}
 
-ion-item{
-    border-radius: 0 0 10px 10px;
-    width: 100vw;
-    right: 16px;
-    bottom:16px;
+ion-card {
+  border-radius: 14px;
+  background-color: #e7e5e5;
+  height: 12vh;
+  box-shadow: 10px 5px 5px rgb(172, 172, 172);
+}
+
+ion-footer {
+  background: #2A908F;
+  bottom: 0px;
+  height: 10vh;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-content {
+  max-width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.card-info .titulo-chamado {
+  color: var(--ion-color-dark);
+  font-size: 11pt;
+  text-wrap: normal;
+}
+
+.card-info .status-chamado {
+  font-size: 8pt;
+}
+
+
+.card-actions {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0;
+}
+
+.card-actions ion-icon {
+  font-size: 24px;
+}
+
+ion-item {
+  border-radius: 0 0 10px 10px;
+  width: 100vw;
+  right: 16px;
+  bottom: 16px;
+}
+
+.info {
+  color: rgb(39, 38, 38);
+  font-size: 12px;
 
 }
 
-ion-button{
-    position: relative;
-    left: 60px;
+.info1 {
+  color: rgb(39, 38, 38);
+  font-size: 12px;
+
 
 }
 
-.info{
-    color: rgb(39, 38, 38);
-    font-size: 12px;
-    
-}
-
-.info1{
-    color: rgb(39, 38, 38);
-    font-size: 12px;
-   
-
-}
-
-h2{
-    font-size: 10px;
+h2 {
+  font-size: 10px;
 }
 
 
-.saibaMais{
-    border-radius: 90px;
-    position: absolute;
-    color: rgb(0, 0, 0);
-    top: 10px;
-    left: 90px;
-    height:1vh;
-    width: 40vw;
-    font-size: 12px;
+.saibaMais {
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  font-size: 12px;
 }
 
