@@ -1,20 +1,38 @@
-ion-content{
-    --background:#ffff;
+ion-card{
+    border-radius: 14px;
+    top: 200px;
+    background-color: #e7e5e5;
+    height: 15vh;   
+    padding: 5px;
+    box-shadow: 10px 5px 5px rgb(172, 172, 172);
+    
+}
+ion-footer{
+    position: absolute;
+    background: #2A908F;
+    bottom: 0px;
+    height: 10vh;
+    border-radius: 20px 20px 0 0;
+}
+
+ion-button{
+    background-color: #E18529;
+}
+
+.toolbar2{
+    background: #2A908F;
+    border-radius: 0 0 20px 20px;
+    height: 15vh;
 }
 
 
 
 .add{
-    position: relative;
-    color: white;
-    top: 200px;
-    left: 70px;
-    border-radius: 10px;
-    font-size: 12px;
-    background: orangered;
-    height:2vh;
-    width: 55vw;
-   
+    position: absolute;
+    color: black;
+    border-radius: 30px;
+    top:50px;
+    
 }
 
 
@@ -33,26 +51,11 @@ h2{
     font-size: 10px;
 }
 
-ion-card{
-    border-radius: 14px;
-    top: 200px;
-    background-color: #e7e5e5;
-    height: 15vh;   
-    padding: 5px;
-    box-shadow: 10px 5px 5px rgb(172, 172, 172);
-    
-}
-ion-footer{
-    position: absolute;
-    background: #2A908F;
-    bottom: 0px;
-    height: 10vh;
-    border-radius: 20px 20px 0 0    ;
-}
+
 .saibaMais{
     border-radius: 90px;
     position: absolute;
-    color: rgb(255, 251, 251);
+    color: rgb(0, 0, 0);
     top: 10px;
     left: 90px;
     height:1vh;

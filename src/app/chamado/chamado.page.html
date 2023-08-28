@@ -1,58 +1,68 @@
-
 <ion-menu contentId="main-content">
   <ion-header>
-      <ion-title>Trevo</ion-title>
+    <ion-title>Trevo</ion-title>
   </ion-header>
   <ion-content class="ion-padding"></ion-content>
 </ion-menu>
 
+
 <div class="ion-page" id="main-content">
- 
   <ion-content class="ion-padding">
 
-  <ion-grid>  
-    <ion-row> 
-      <ion-col>
-        <ion-card>
-          <span class="info">Error Servidor!</span>
-          <h2>Pendente</h2>
-          <ion-button>
-           <ion-icon class="lixo" name="trash"></ion-icon>
-          </ion-button>
-          
-          <ion-button>
-            <ion-icon class="editor" name="create"></ion-icon>
-          </ion-button>
- 
-        </ion-card>
+    <ion-header>
+      <ion-toolbar color="none">
+        <ion-buttons slot="start">
+        
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
 
-      </ion-col>
-    </ion-row>
+      </ion-toolbar> 
+      <ion-button class="add" color="none">Pulta</ion-button>
+    </ion-header>
 
-    <ion-row>
-      <ion-col>
-        <ion-card>
-          <span class="info1">Error Servidor!</span>
-          <h2>Resolvido</h2>
-          <ion-button>
-            <ion-icon name="trash"></ion-icon>
-          </ion-button>
-          <ion-button>
-            <ion-icon name="create"></ion-icon>
-          </ion-button>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <span class="info">Error Servidor!</span>
+            <h2>Pendente</h2>
+            <ion-button>
+              <ion-icon class="lixo" name="trash"></ion-icon>
+            </ion-button>
 
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+            <ion-button>
+              <ion-icon class="editor" name="create"></ion-icon>
+            </ion-button>
+
+          </ion-card>
+
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <span class="info1">Error Servidor!</span>
+            <h2>Resolvido</h2>
+            <ion-button>
+              <ion-icon name="trash"></ion-icon>
+            </ion-button>
+            <ion-button>
+              <ion-icon name="create"></ion-icon>
+            </ion-button>
+
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-content>
 
- 
-</div> 
+
+</div>
 
 
 <ion-footer>
-  <ion-button class="saibaMais" fill="clear" expand="block" color="light">
+  <ion-button class="saibaMais" fill="clear" expand="block" color="none">
     Saiba mais!
   </ion-button>
 </ion-footer>
