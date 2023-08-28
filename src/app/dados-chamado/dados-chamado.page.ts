@@ -3,6 +3,7 @@ import {Router} from "@angular/router";
 import {CookieService} from "../services/cookie/cookie-service.service";
 import {NavController} from "@ionic/angular";
 import {DTOChamado} from "../dto/dto-chamado";
+import {Geolocation} from "@capacitor/geolocation";
 
 @Component({
   selector: 'app-dados-chamado',
@@ -36,6 +37,16 @@ export class DadosChamadoPage implements OnInit {
         this.requestUrl = `http://localhost:8080/chamados/${routerState['chamado'].id}`
       }
     }
+  }
+
+  async getLatitude() {
+    const position = await Geolocation.getCurrentPosition();
+    return position.coords.latitude;
+  }
+
+  async getLongitude() {
+    const position = await Geolocation.getCurrentPosition();
+    return position.coords.longitude;
   }
 
   submitForm() {

@@ -2,10 +2,22 @@ ion-header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #2A908F;
+  border-radius: 0 0 30px 30px;
+  padding-bottom: 10px;
+  height: 15vh;
+}
+
+ion-toolbar {
+  --background: #2a908f;
 }
 
 ion-header ion-button {
   width: min-content;
+}
+
+#main-content {
+  background: #fff;
 }
 
 ion-card {
@@ -17,7 +29,6 @@ ion-card {
 
 ion-footer {
   background: #2A908F;
-  bottom: 0px;
   height: 10vh;
   border-radius: 20px 20px 0 0;
   display: flex;
